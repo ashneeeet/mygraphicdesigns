@@ -1,0 +1,167 @@
+#hello{
+    padding-top: 250px;
+    padding-bottom: 250px;
+    padding-left:100px;
+    padding-right: 100px;
+    font-size: large;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image:url("background of first page.png");
+    background-repeat: no-repeat;
+    color:rgb(37, 37, 37)
+}
+
+h1{
+    color: rgb(47, 47, 73);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+    display: block;
+    animation: mymove ease-out 5s;
+}
+
+@keyframes mymove{
+    0%{
+        width:0%;
+        left:0
+    }
+    100%{
+        width:100%;
+        left:100%
+    }
+}
+
+ul{
+   font-size: 35px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-weight: initial;
+}
+
+li{
+    border: white 10px solid;
+    padding: 40px;
+    background-color: rgb(37, 37, 37);
+    text-align: center;
+    list-style-type: none;
+    border-right: 50px;
+    margin-left:100px;
+    margin-right:100px
+}
+
+li a{
+    color: white;
+    text-decoration: none;
+}
+
+li a:hover{
+    color:rgb(37, 37, 37);
+    background-color: white;
+    padding: 40px;
+}
+
+img{
+    width: 250px;
+    height:250px;
+    float: right;
+    z-index: 5;
+}
+
+#resume{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+}
+
+#resume a{
+    text-decoration: none;
+    color: rgb(47, 47, 73);
+}
+
+#resume a:hover{
+    color: white
+}
+
+#categories{
+    text-align:center
+}
+
+#fb{
+    padding-top: 250px;
+    padding-bottom: 250px;
+    padding-left:100px;
+    padding-right: 100px;
+    font-size: large;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image:url("background\ of\ second\ page.png");
+    background-repeat: no-repeat;
+    color:rgb(37, 37, 37)
+}
+
+#contact{
+    padding-top: 250px;
+    padding-bottom: 250px;
+    padding-left:100px;
+    padding-right: 100px;
+    font-size: large;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image:url("background of third page.png");
+    background-repeat: no-repeat;
+    color:rgb(37, 37, 37);
+    text-align: right
+}
+
+i a{
+    text-decoration: none;
+    color: black
+}
+
+button{
+    color:white;
+    background-color: rgb(47, 47, 73);
+    opacity:0.85;
+    animation: 1s ease-in button;
+    width:500px;
+    height: 150px;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+@keyframes button{
+    50%{
+        color: white;
+        background-color: rgb(47, 47, 73);
+    }
+    100%{
+        color:rgb(47, 47, 73);
+        background-color:white;
+    }
+}
+
+#first{
+    max-width: 1200px;
+    margin:auto;
+    padding: 0 50px;
+    justify-content: flex-start;
+}
+
+#last{
+    animation: ease-in-out 1s infinite reachme
+}
+ @keyframes reachme{
+     0%{
+        color:rgb(47, 47, 73);
+     }
+     100%{
+        color: white
+     }
+ }
+
+ #fdb{
+     animation: underlined 2s ease-out infinite
+ }
+
+@keyframes underlined{
+    0% {
+        text-decoration: none
+    }
+    50% {
+        text-decoration: underline
+    }
+}
