@@ -6,6 +6,8 @@
     font-size: large;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-image:url("background of first page.png");
+    background-width="100%";
+    background-height="1500px"
     background-repeat: no-repeat;
     color:rgb(37, 37, 37)
 }
