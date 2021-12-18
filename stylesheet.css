@@ -60,7 +60,7 @@ li a:hover{
     padding: 40px;
 }
 
-img{
+me{
     width: 250px;
     height:250px;
     float: right;
@@ -87,6 +87,19 @@ img{
 
 #fb{
     padding-top: 250px;
+    padding-bottom: 250px;
+    padding-left:100px;
+    padding-right: 100px;
+    font-size: large;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image:url("background\ of\ second\ page.png");
+    background-repeat: no-repeat;
+    color:rgb(37, 37, 37)
+}
+
+
+#lor {
+     padding-top: 250px;
     padding-bottom: 250px;
     padding-left:100px;
     padding-right: 100px;
