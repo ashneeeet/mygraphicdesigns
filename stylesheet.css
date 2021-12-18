@@ -107,7 +107,9 @@ me{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-image:url("https://images.unsplash.com/photo-1516131206008-dd041a9764fd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8Z3JhcGhpYyUyMGRlc2lnbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60");
     background-repeat: no-repeat;
-    color:rgb(37, 37, 37)
+    color:rgb(37, 37, 37);
+    background-width:100%;
+    background-height: 1500px
 }
 
 #contact{
